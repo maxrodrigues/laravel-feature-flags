@@ -8,6 +8,6 @@ class FeatureFlagsController extends Controller
 {
     public function __invoke()
     {
-        return view('admin-users');
+        return view('all-users');
     }
 }
