@@ -7,6 +7,9 @@ use Illuminate\Support\Lottery;
 
 class AdminUsersFeature
 {
+
+    public string $name = 'admin-feature';
+
     /**
      * Resolve the feature's initial value.
      */
